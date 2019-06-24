@@ -1,0 +1,5 @@
+.add-project, .projects-list, .project-details, .edit-form, .tasks {
+  border: 1px solid red;
+  padding: 10px;
+  margin-bottom: 20px;
+}

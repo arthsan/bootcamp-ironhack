@@ -1,0 +1,11 @@
+<h1>BOOKS</h1>
+{{#if msg}}
+  <div class="msg">{{msg}}</div>
+{{/if}}
+{{#each books}}
+    <p>
+        <a href="book/{{this._id}}">{{this.title}}</a> 
+        <a href="/books/edit?book_id={{this._id}}" class="edit-button">EDIT</a>
+        <a href="/books/del/{{this._id}}" class="del-button">DELETE</a>
+    </p>
+{{/each}}

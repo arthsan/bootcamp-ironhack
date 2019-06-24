@@ -1,0 +1,13 @@
+
+.movies-list {
+  border: 5px solid black;
+  padding: 10px;
+}
+
+.movies-list > button {
+  margin-bottom: 10px;
+  background-color: darkorange;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
