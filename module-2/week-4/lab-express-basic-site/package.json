@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/arthsan/lab-express-basic-site#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.18.2"
   }
 }
